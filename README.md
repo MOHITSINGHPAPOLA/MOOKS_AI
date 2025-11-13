@@ -1,4 +1,4 @@
-# MOOKS_AI (gemini-scribe-68)
+# MOOKS_AI       
 
 **A lightweight React + TypeScript app for generating personalized book & movie recommendations.**
 
@@ -89,13 +89,13 @@ The frontend posts to the Supabase Edge Function endpoint: `${VITE_SUPABASE_URL}
 ## Project structure (important files)
 
 ```
-gemini-scribe-68/
+MOOKS_AI/      
 ├─ src/
 │  ├─ App.tsx           # App entry, routing, react-query provider
 │  ├─ main.tsx          # Vite entry
 │  ├─ pages/Index.tsx   # Main page with SearchForm + Results
 │  ├─ components/       # UI components (Header, Footer, SearchForm, Results...)
-│  └─ components/ui/    # UI primitives
+│  └─ components/ui/    # UI primitives  
 ├─ supabase/
 │  └─ functions/recommend/  # Supabase function (stub) — implement here
 ├─ package.json
